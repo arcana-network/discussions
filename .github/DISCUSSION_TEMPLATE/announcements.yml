@@ -1,7 +1,2 @@
 title: "[Announcements] "
 labels: ["Arcana Auth Product Announcements"]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Arcana Network Organization Announcements!
