@@ -5,13 +5,3 @@ body:
     attributes:
       value: |
         Arcana Network Organization Announcements!
-  - type: dropdown
-    attributes:
-    label: Type
-    description: What type of announcement is this?
-    multiple: false
-    options:
-      - label: Release (Default)
-      - label: General
-    validations:
-      required: true
