@@ -16,7 +16,7 @@ body:
     validations:
       required: true
   - type: input
-    id: announce_title
+    id: has-id
     attributes: 
       label: Announcement Title
       description: "Enter the announcement title."
