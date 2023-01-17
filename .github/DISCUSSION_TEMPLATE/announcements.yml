@@ -1,1 +1,25 @@
-
+title: "[Announcements] "
+labels: ["Arcana Auth Product Announcements"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Arcana Network Organization Announcements!
+  - type: dropdown
+    attributes:
+    label: Type
+    description: What type of announcement is this?
+    multiple: false
+    options:
+      - label: Release (Default)
+      - label: General
+    validations:
+      required: true
+  - type: input
+    id: announce_title
+    attributes: 
+      label: Announcement Title
+      description: "Enter the announcement title."
+      placeholder: "Arcana Network Release x.y.z is ready for Web3 application developers..."
+    validations:
+      required: true
